@@ -5,7 +5,6 @@ import Image from 'next/image'
 // import Logo from "../assets/Dorset-Capital-Logo.png";
 import NavLink from './NavLink'
 import useMediaQuery from '@/app/hooks/useMediaQuery'
-import Link from 'next/link'
 
 type Props = {
 	selectedPage: SelectedPage
@@ -18,7 +17,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
 
 	const flexBetween = 'flex items-center justify-between'
 	const isAboveMediumScreens = useMediaQuery('(min-width: 1060px)')
-	const navbarBackground = isTopOfPage ? '' : 'bg-primary-100 drop-shadow'
+	const navbarBackground = isTopOfPage ? '' : 'bg-gray-100 drop-shadow'
 
 	return (
 		<nav>
@@ -63,7 +62,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
 									/>
 								</div>
 								<div>
-									<button className="bg-gray-100 py-2 px-6 font-bold text-blue-500 hover:bg-gray-300 rounded-full ">
+									<button className=" py-2 px-6 font-semibold text-primary-500 bg-primary-100 rounded-full ">
 										Project estimation
 									</button>
 								</div>
@@ -81,7 +80,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
 				</div>
 			</div>
 			{!isAboveMediumScreens && isMenuToggled && (
-				<div className="fixed bottom-0 right-0 z-40 h-full w-[300px] bg-primary-100 drop-shadow-xl ">
+				<div className="fixed bottom-0 right-0 z-40 h-full w-[300px] bg-gray-100 drop-shadow-xl ">
 					{/* CLOSE ICON */}
 					<div className="flex justify-end p-12">
 						<button onClick={() => setIsMenuToggled(!isMenuToggled)}>

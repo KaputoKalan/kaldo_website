@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Work from './components/Work'
 
 export default function Home() {
 	const [isTopOfPage, setIsTopOfPage] = useState<boolean>(true)
@@ -31,6 +32,7 @@ export default function Home() {
 				setSelectedPage={setSelectedPage}
 			/>
 			<Hero />
+			<Work />
 		</main>
 	)
 }

@@ -11,7 +11,7 @@ const Hero = () => {
 							SOFTWARE DEVELOPMENT SERVICE
 						</p>
 						<div className="flex  flex-col md:flex-row justify-evenly w-full items-center">
-							<h1 className="text-white text-center md:text-left text-3xl  md:text-5xl font-bold basis-3/4  ">
+							<h1 className="text-white text-center md:text-left text-4xl  sm:text-5xl font-bold basis-3/4  ">
 								We are a website & app development agency
 							</h1>
 							<div className="basis-1/4 w-full h-full flex mt-5 md:mt-0   md:items-center items-center justify-center">
@@ -32,8 +32,8 @@ const Hero = () => {
 							<h3 className="text-2xl text-gray-900 font-bold">
 								Dorset Capital
 							</h3>
-							<button className="rounded-full border border-1 border-gray-200 bg-gray-100 p-4">
-								<ArrowRightIcon className="h-4 w-4 font-black text-gray-900" />
+							<button className="rounded-full border border-1 border-gray-400 bg-gray-100 p-4">
+								<ArrowRightIcon className="h-4 w-4 text-gray-900" />
 							</button>
 						</div>
 					</div>
