@@ -6,7 +6,7 @@ const WorkCard = () => {
 	return (
 		<div className="max-h-[500px] mt-20">
 			<Image
-				className=" object-cover rounded-xl w-[600px] h-[400px]"
+				className=" object-cover rounded-2xl w-[600px] h-[400px]"
 				src={laptop}
 				alt="laptop"
 			/>

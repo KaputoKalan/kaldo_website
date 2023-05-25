@@ -11,8 +11,7 @@ const Work = () => {
 				<div className="flex">
 					<div className="basis-2/3 pr-10">
 						<h2 className="text-4xl font-black w-5/6">
-							We help businesses to make their production come to life,
-							worldwide.
+							We help businesses to make their product come to life, worldwide.
 						</h2>
 					</div>
 					<div className="basis-1/3">
@@ -26,7 +25,7 @@ const Work = () => {
 						</button>
 					</div>
 				</div>
-				<div className="overflex-x-auto w-full h-[600px] overflow-y-hidden  scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-primary-300 ">
+				<div className="overflex-x-auto w-full h-[600px] overflow-y-hidden  scrollbar-track-gray-400/20 scrollbar-thumb-primary-300 scrollbar-thin ">
 					<ul className="w-[2800px] whitespace-nowrap">
 						<WorkCard />
 					</ul>

@@ -15,8 +15,7 @@ module.exports = {
 				'secondary-500': '#FFC132',
 			},
 			fontFamily: {
-				dmsans: ['DM Sans', 'sans-serif'],
-				montserrat: ['Montserrat', 'sans-serif'],
+				Roboto: ['Roboto', 'sans-serif'],
 			},
 			backgroundImage: {
 				macbook: "url('../public/assets/macbook1.jpg')",
