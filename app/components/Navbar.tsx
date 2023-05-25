@@ -28,7 +28,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
 					<div className={`${flexBetween} w-full gap-16`}>
 						{/* Left Side */}
 						{/* <Image src={Logo} height={100} width={100} alt="Dorset Logo" /> */}
-						<h1 className="text-xl font-black">
+						<h1 className="text-xl text-gray-100 md:text-gray-900  font-black">
 							Kal<span className="text-[#01c38e]">do.</span>
 						</h1>
 						{/* Right Side */}
