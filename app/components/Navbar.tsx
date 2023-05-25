@@ -23,12 +23,14 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
 	return (
 		<nav>
 			<div
-				className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-4 `}>
+				className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-4`}>
 				<div className={`${flexBetween} mx-auto w-5/6`}>
 					<div className={`${flexBetween} w-full gap-16`}>
 						{/* Left Side */}
 						{/* <Image src={Logo} height={100} width={100} alt="Dorset Logo" /> */}
-						<h1>Kaldo Tech</h1>
+						<h1 className="text-xl font-black">
+							Kal<span className="text-[#01c38e]">do.</span>
+						</h1>
 						{/* Right Side */}
 						{isAboveMediumScreens ? (
 							<div className={`flex w-full items-center justify-end `}>

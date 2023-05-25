@@ -2,7 +2,7 @@ import { ArrowRightIcon } from '@heroicons/react/24/solid'
 
 const Hero = () => {
 	return (
-		<section id="home" className="gap-16  py-10 md:h-full md:pb-0 mt-10 ">
+		<section id="home" className="gap-16  py-10 md:h-full md:pb-0 mt-20 ">
 			<div className="mx-auto w-5/6 flex  md:h-full gap-5 ">
 				<div className="basis-3/4 bg-macbook bg-cover bg-no-repeat w-full h-[80vh] rounded-xl ">
 					<div className="p-20 items-start justify-end flex flex-col h-full">
