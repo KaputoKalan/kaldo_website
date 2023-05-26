@@ -23,6 +23,10 @@ module.exports = {
 			},
 			content: {
 				laptop: "url('../public/assets/laptop.png')",
+				web: "url('../public/assets/web.png')",
+				webapp: "url('../public/assets/webapp.png')",
+				app: "url('../public/assets/app.png')",
+				about: "url('../public/assets/about.jpg')",
 			},
 		},
 		screens: {

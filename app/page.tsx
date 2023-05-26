@@ -4,6 +4,8 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Work from './components/Work'
 import Services from './components/Services'
+import About from './components/About'
+import Testimonials from './components/Testimonials'
 
 export default function Home() {
 	const [isTopOfPage, setIsTopOfPage] = useState<boolean>(true)
@@ -35,6 +37,8 @@ export default function Home() {
 			<Hero />
 			<Work />
 			<Services />
+			<About />
+			<Testimonials />
 		</main>
 	)
 }
