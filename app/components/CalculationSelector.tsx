@@ -4,11 +4,14 @@ import { motion } from 'framer-motion'
 
 export default function CalculationSelector() {
   return (
-    <div className="bg-slate-400 min-h-screen">
-      <h1 className=" pt-4 pl-4 ">
+    <div className="bg-slate-900 min-h-screen flex flex-col items-center p-6">
+      <h1 className="px-8 font-bold text-xl text-white">
+        Kal<span className="text-[#01c38e]">do</span> Project Cost Estimator
+      </h1>
+      <h1 className="pb-6 text-white">
         Get an Estimate of how much your project may cost
       </h1>
-      <div className="flex min-w-full flex-row  p-12 justify-around ">
+      <div className="flex min-w-full flex-row justify-around ">
         <motion.div
           className="min-h-[300px] w-[40%] cursor-pointer rounded-xl shadow-lg bg-green-300 flex flex-col items-center"
           whileHover={{
