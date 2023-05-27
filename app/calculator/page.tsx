@@ -1,5 +1,10 @@
 import React from 'react'
+import CalculationSelector from '@app/components/CalculationSelector'
 
 export default function page() {
-  return <div>page</div>
+  return (
+    <div>
+      <CalculationSelector />
+    </div>
+  )
 }
