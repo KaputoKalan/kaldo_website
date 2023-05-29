@@ -10,7 +10,7 @@ const Contact = () => {
 				<p className="uppercase py-5 text-gray-500 font-bold text-xs md:text-sm">
 					Contact Us
 				</p>
-				<h2 className="font-black text-5xl text-center">
+				<h2 className="font-black  text-3xl sm:text-5xl text-center">
 					You've got this far. <br /> Ready to get Started?
 				</h2>
 				<button className="py-4 px-8 mt-10 bg-primary-500 rounded-full">

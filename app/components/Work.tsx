@@ -8,13 +8,13 @@ const Work = () => {
 				<p className=" py-5 text-gray-500 font-bold text-xs md:text-sm">
 					OUR WORK
 				</p>
-				<div className="flex">
-					<div className="basis-2/3 pr-10">
-						<h2 className="text-4xl font-black w-5/6">
+				<div className="flex flex-col md:flex-row ">
+					<div className=" md:basis-2/3 md:pr-10">
+						<h2 className="sm:text-4xl text-2xl font-black  w-full  md:w-5/6">
 							We help businesses to make their product come to life, worldwide.
 						</h2>
 					</div>
-					<div className="basis-1/3">
+					<div className="basis-1/3 mt-5 md:mt-0">
 						<p className="text-gray-900">
 							Our experience has helped our clients launch new companies in the
 							digitial arena throughout the years. Take a look at some of our
@@ -25,7 +25,7 @@ const Work = () => {
 						</button>
 					</div>
 				</div>
-				<div className="overflex-x-auto w-full h-[600px] overflow-y-hidden  scrollbar-track-gray-400/20 scrollbar-thumb-primary-300 scrollbar-thin ">
+				<div className="overflex-x-auto w-full h-[400px] md:h-[600px] overflow-y-hidden  scrollbar-track-gray-400/20 scrollbar-thumb-primary-300 scrollbar-thin ">
 					<ul className="w-[2800px] whitespace-nowrap">
 						<WorkCard />
 					</ul>
